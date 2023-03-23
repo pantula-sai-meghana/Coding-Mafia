@@ -1,0 +1,15 @@
+
+n=list(map(int,input().split()))
+k=max(n)
+for i in range(len(n)):
+    if(n[i]!=k):
+        print(n[i],end=' ')
+    else:
+        print(k+1,end=' ')
+        
+        
+        
+        
+        output:
+        i/p:  [1,2,3]
+        o/p:[1,2,4]
