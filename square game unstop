@@ -1,0 +1,19 @@
+import math
+n=int(input())
+t=[]
+l=list(map(int,input().split()))
+for i in range(n):
+    k=math.pow(l[i],2)
+    m=int(k)
+    t.append(m)
+    t.sort()
+for i in range(len(t)):
+    print(t[i],end=' ')
+    
+    
+    
+    output:
+    5
+-4 -1 0 3 10
+Output
+0 1 9 16 100
